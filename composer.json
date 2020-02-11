@@ -1,0 +1,19 @@
+{
+    "name": "vantt/shortflake-client",
+    "homepage": "https://github.com/vantt/shortflake-client",
+    "description": "PHP CLient to connect to ShortFlake Id Server",
+    "keywords": ["uuid", "short uuid", "id generator", "snow flake"],
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "vantt"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "ShortFlake\\": "src/"
+        }
+    }
+}
